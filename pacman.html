@@ -1,9 +1,15 @@
 <html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
 <SCRIPT>
     var pos = 0;
     const pacArray = [
-        ['PacMan1.png', 'PacMan2.png'],
-        ['PacMan3.png', 'PacMan4.png']
+        ["PacMan1.png", "PacMan2.png"],
+        ["PacMan3.png", "PacMan4.png"],
     ];
     var direction = 0;
     const pacMen = []; // This array holds all the pacmen
@@ -70,10 +76,12 @@
 </SCRIPT>
 
 <body>
-    <div id='game'>
-        <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-        <button onclick='update()' width='200' height='30'>Start Game</button>
+    <div class="container">
+        <div id='game'>
+            <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
+            <button onclick='update()' width='200' height='30'>Start Game</button>
 
+        </div>
     </div>
 </body>
 
